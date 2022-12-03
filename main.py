@@ -8,3 +8,8 @@ def count_digits(line: str) -> int:
         if char in string.digits:
             total += 1
     return total
+
+
+if __name__ == '__main__':
+    example = "03.12.2022: testing..."
+    print(f"Test string: '{example}'\nDigits: {count_digits(example)}")
